@@ -16,9 +16,9 @@ A blockchain-based auction system with an innovative time-extension bidding mech
 - `AuctionFactory.sol`: Factory for creating and managing auctions
 
 ## Development
-npm install
-npx hardhat compile
-npx hardhat test
+- npm install
+- npx hardhat compile
+- npx hardhat test
 
 ## License
 MIT
