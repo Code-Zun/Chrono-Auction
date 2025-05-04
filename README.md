@@ -1,13 +1,25 @@
-# Sample Hardhat Project
+# Chrono Auction
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a Hardhat Ignition module that deploys that contract.
+A blockchain-based auction system with an innovative time-extension bidding mechanism.
 
-Try running some of the following tasks:
+## Features
 
-```shell
-npx hardhat help
+- Time-extended bidding: Auction time extends when bids are placed near closing time
+- ERC20 token bidding support
+- Participation token rewards for bidders
+- Factory pattern for easy auction creation
+
+## Contracts
+
+- `ChronoAuction.sol`: Main auction contract with time extension
+- `ParticipationToken.sol`: ERC20 rewards for auction participation
+- `AuctionFactory.sol`: Factory for creating and managing auctions
+
+## Development
+npm install
+npx hardhat compile
 npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat ignition deploy ./ignition/modules/Lock.js
-```
+
+## License
+MIT
+EOL
