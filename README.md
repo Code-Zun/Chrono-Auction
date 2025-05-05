@@ -20,6 +20,12 @@ A blockchain-based auction system with an innovative time-extension bidding mech
 - npx hardhat compile
 - npx hardhat test
 
+## Dependencies
+- Node.js
+- npm
+- Hardhat
+- OpenZeppelin Contracts
+
 ## License
 MIT
 EOL
